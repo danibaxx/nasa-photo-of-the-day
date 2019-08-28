@@ -1,14 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React,{ useState, useEffect } from 'react';
 
-import { getApod } from './apod-api';
+import axios from 'axios';
+// import { getApod } from './apod-api';
 
 const NasaApod = () => {
-  const [apod, updateApod] = useState([]);
+  const [astroPhoto, updateAstroPhoto] = useState([]);
 
-  
+  useEffect(() => {
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+    .then(response => (console.log(response)))
+    .catch(error => (console.log("Error", error)))
+  });
+
   return (
     <div className="nasa-container">
-      <p>Hello from NasaApod!</p>
+      {astroPhoto.map((photo, index) => {
+        <img 
+          src={ photo } 
+          alt='Daily Astronomy Photo' 
+          key={ index } 
+        />
+      })}
     </div>
   );
 };
