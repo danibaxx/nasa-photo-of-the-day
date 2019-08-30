@@ -11,7 +11,11 @@ function App() {
     <div className="container">
       <NavBar />
       <div className="App">
-        <NasaApod />
+        <NasaApod 
+          title="Props title"
+          url="URL"
+          explanation="some explanation"
+        />
       </div>
     </div>
   );
