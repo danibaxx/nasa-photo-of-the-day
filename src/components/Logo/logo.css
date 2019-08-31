@@ -6,3 +6,18 @@
 .apod {
   color: #ffffff;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+.apod {
+  display: flex;
+  align-items: center;
+  padding-right: 75px;
+}
