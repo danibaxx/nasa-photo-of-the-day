@@ -13,7 +13,7 @@ const Logo = () => {
         alt="Nasa's Logo" 
       />
       <div className="apod">
-        <h1>Astronomy Photo of the Day</h1>
+        <h1 className="nav-title">Astronomy Photo of the Day</h1>
       </div>
     </div>
   );

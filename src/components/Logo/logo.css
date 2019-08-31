@@ -21,3 +21,7 @@
   align-items: center;
   padding-right: 75px;
 }
+
+.nav-title {
+  font-family: 'Cabin Sketch', cursive;
+}

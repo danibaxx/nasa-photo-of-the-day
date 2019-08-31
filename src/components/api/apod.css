@@ -1,0 +1,14 @@
+.nasa-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.nasa-img {
+  width: 650px;
+  height: 450px;
+}
+
+h2 {
+  color: #ee293d;
+  font-family: 'Orbitron', sans-serif;
+}

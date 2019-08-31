@@ -25,10 +25,10 @@ function App() {
       <NavBar />
       <div className="App">
         <NasaApod 
-          title={data.title}
-          url={data.url}
-          date={data.date}
-          explanation={data.explanation}
+          title={ data.title }
+          url={ data.url }
+          date={ data.date }
+          explanation={ data.explanation }
         />
       </div>
     </div>
