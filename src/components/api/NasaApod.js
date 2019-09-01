@@ -1,6 +1,7 @@
 import React from 'react';
+import Buttons from '../Buttons';
 
-import apod from './apod.css';
+import './apod.css';
 
 const NasaApod = (props) => {
   // console.log("NasaApod", props);
@@ -18,6 +19,7 @@ const NasaApod = (props) => {
         <h2>{props.title}</h2>
         <h4>{props.date}</h4>
         <p>{props.explanation}</p>
+        <Buttons />
       </div>
     </div>
   );

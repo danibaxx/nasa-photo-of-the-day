@@ -7,7 +7,7 @@ import NasaApod from './components/api/NasaApod';
 import "./App.css";
 
 
-function App() {
+const App = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
