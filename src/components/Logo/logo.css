@@ -1,0 +1,27 @@
+.logo {
+  width: 125px;
+  height: 115px;
+}
+
+.apod {
+  color: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+.apod {
+  display: flex;
+  align-items: center;
+  padding-right: 75px;
+}
+
+.nav-title {
+  font-family: 'Cabin Sketch', cursive;
+}
